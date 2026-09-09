@@ -30,7 +30,7 @@ body {
 
 /* 3) Map wrapper */
 .map-wrapper {
-    position: relative;          /* positioning context for markers + legend */
+    position: relative;          
     max-width: 100%;
     overflow: hidden;
     border-radius: 12px;
@@ -48,7 +48,7 @@ body {
     user-select: none;
 }
 
-/* Shared z-index layers */
+
 .map-wrapper .park-map { z-index: 1; }
 .marker { z-index: 2; }
 .tooltip { z-index: 3; }
@@ -64,11 +64,11 @@ body {
     background: #e91e63;
     border: 2px solid #ffffff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-    transform: translate(-50%, -50%); /* center over coordinates */
+    transform: translate(-50%, -50%); 
     cursor: pointer;
 }
 
-/* Example coordinates (tweak as desired) */
+
 #marker-atlantis { top: 32%; left: 22%; }
 #marker-gyro     { top: 18%; left: 78%; }
 #marker-carousel { top: 62%; left: 30%; }
@@ -178,7 +178,7 @@ body {
     font-size: 1.6rem;
 }
 
-/* Two-column layout */
+
 .transport-columns {
     display: flex;
     gap: 24px;
